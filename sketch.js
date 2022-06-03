@@ -1,12 +1,12 @@
-int h;
-int w;
-int x;
-int y;
-int vx;
-int vy;
+var h;
+var w;
+var x;
+var y;
+var vx;
+var vy;
 
-void setup() {
-  size(1000, 500);
+function setup() {
+  createCanvas(1000, 500);
   background(0);
   fill(255);
   w = 100;
@@ -24,7 +24,7 @@ void setup() {
   rect(x, y, w, h);
 }
 
-void draw(){
+function draw(){
   background(0);
   x+=vx;
   y+=vy;
